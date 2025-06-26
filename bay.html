@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to My Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url('https://discovertemplate.com/wp-content/uploads/2021/01/DT_G75_Education-and-Knowledge-Animated-GIF-Icon-pack.gif');
+      background-size: cover; 
+      background-repeat: no-repeat; 
+      background-position: center; 
+      font-family: Arial, sans-serif;
+      color: violet;
+      text-align: center;
+    }
+    .intro-container {
+      max-width: 500px;
+    }
+    .intro-container h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .intro-container p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .intro-container button {
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 25px;
+      background: purple;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .intro-container button:hover {
+      background: yellow;
+    }
+  </style>
+</head>
+<body>
+  <div class="intro-container">
+    <h1>Welcome to My Website</h1>
+    <p>Discover amazing content and learn more about what I do!</p>
+    <button onclick="enterSite()">Enter the Website</button>
+  </div>
+
+  <script>
+    function enterSite() {
+      window.location.href = "index for individual project.html";
+    }
+  </script>
+</body>
+</html>
